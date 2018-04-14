@@ -1,4 +1,4 @@
-#!/usr/local/bin/octave 
+#!/usr/bin/octave 
 
 addpath('./')
 
