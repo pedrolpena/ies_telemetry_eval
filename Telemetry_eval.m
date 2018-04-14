@@ -4,7 +4,7 @@ function[]=Telemetry_eval(fileName)
 %  of a recently telemetered PIES or CPIES.  
 %  Christopher S. Meinen
 
-#clear
+%clear
 close all
 screensize = get( 0, 'Screensize' );
 
@@ -19,7 +19,7 @@ end
 
 %%%%%% Prompt the user for the file name and load the file
 
-#filename=input('Enter the file name at the prompt:','s');
+%filename=input('Enter the file name at the prompt:','s');
 
 data=load(filename);
 
