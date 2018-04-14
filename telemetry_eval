@@ -1,0 +1,14 @@
+#!/usr/local/bin/octave 
+
+addpath('./')
+
+arg_list = argv ();
+
+if size(arg_list) > 0
+    Telemetry_eval(arg_list{1});
+else
+    Telemetry_eval
+end
+
+
+pause
